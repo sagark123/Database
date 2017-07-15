@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478747697564",
+    "firebase_url": "https://moblity-india.firebaseio.com",
+    "project_id": "moblity-india",
+    "storage_bucket": "moblity-india.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478747697564:android:a1816da1e9b18ba2",
+        "android_client_info": {
+          "package_name": "com.mobilityindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478747697564-objquerja6cbrvm38skcaga1m711roc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobilityindia",
+            "certificate_hash": "795af8ccc6dda1aa046bb3d39ebcc26a79ece533"
+          }
+        },
+        {
+          "client_id": "478747697564-fke34e61fkth0rh79ecrrm9240ejt45d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAALTQMn73l6PhwRJUkMOHS3MXbLMY_1sE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478747697564-fke34e61fkth0rh79ecrrm9240ejt45d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

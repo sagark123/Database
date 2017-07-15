@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context="com.mobilityindia.Menu">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:text="2017"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button6" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:text="2018"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:text="2019"
+        android:layout_below="@+id/button2"
+        android:layout_toEndOf="@+id/button2"
+        android:layout_marginStart="19dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:text="2020"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:text="2021"
+        android:layout_marginStart="18dp"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_toEndOf="@+id/button6"
+        android:layout_marginBottom="70dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_weight="1"
+        android:background="@drawable/circle"
+        android:text="2022"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="45dp" />
+
+    />
+</RelativeLayout>
